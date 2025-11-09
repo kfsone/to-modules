@@ -1,6 +1,13 @@
 cmake_minimum_required (VERSION 4.0)  # earlier versions require additional config
 
+
+# Toolchain factors
+set (CMAKE_CXX_STANDARD          20)
+set (CMAKE_CXX_STANDARD_REQUIRED ON)
+set (CMAKE_CXX_EXTENSIONS        OFF)  # consistency
+
+
 project (ToModules LANGUAGES CXX)
 
-message (FATAL_ERROR "\n=== THIS IS FINE: Switch to Stage1 branch (e.g: git switch Stage1) ===\n")
 
+add_executable (main main.cpp)

@@ -2,7 +2,7 @@
 #ifndef TUTORIAL_INCLUDED_DATABASE_H
 #define TUTORIAL_INCLUDED_DATABASE_H
 
-#include <logging/logging.h>
+import logging;
 
 struct DB
 {

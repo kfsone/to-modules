@@ -1,6 +1,8 @@
-#include "database.h"
+module database;		// no 'export', this is the implementation
 
-// #include <logging/logging.h>  // covered by database.h?
+import logging;			// since 'database' doesn't 'export' it.
+
+// import <string>;		// ? unsure if not-needing this is msvc bug
 
 DB NewDatabase()
 {

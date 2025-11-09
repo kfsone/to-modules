@@ -1,6 +1,6 @@
-#include "user.h"
+module user;
 
-// #include <database/database.h>  // covered by user.h?
+import <string>;
 
 User NewUser(DB& db, std::string name)
 {

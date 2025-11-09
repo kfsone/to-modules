@@ -1,5 +1,6 @@
 export module logging;
 
+// import <overkill.h>;     // uncomment to see effect
 import <iostream>;
 import <string>;
 // If our users will always want to access std::string, we could

@@ -1,9 +1,6 @@
-// import I.Logz.ForU;
+import database;
 import logging;
-
-#include <database/database.h>
-#include <user/user.h>
-
+import user;
 
 int main()
 {

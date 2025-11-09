@@ -1,10 +1,9 @@
 C++ Modules: For C++ Programmers
 ================================
 
-- CMake 3.31+ required, CMake 4.0+ recommended
-- Tested with MSVC (2019, 2022, and "Insiders 2026")
-- Pending (Clang, Gcc)
-
+- CMake 3.28+ required, CMake 4.0+ recommended
+- VS2022 and Ninja Generators
+- Tested with MSVC (2022, and "Insiders 2026"), CLang (18+, 20 was most robust)
 
 Practical, hands-on tutorial for folks who want to see how to make modules *happen*.
 
@@ -52,8 +51,8 @@ and *then* we'll go to work turning that into modules.
 - Stage 1 introduces the code in a single cpp that you can build/run,
 - Stage 2 remaps that into logging (header-only), database, and user libs,
 - Stage 3 naively converts logging to module implementation unit but does not compile,
-- Stage 4 addresses one issue with Stage 3, but still does not compile,
-- Stage 5 addresses the final issue with stage 3 and compiles,
+- Stage 4.x address the compile issues in Step 3,
+- Stage 5 presents the completed logging transition and works,
 - Stage 6 converts database and user to modules,
 - Stage 7 creates a combined module demonstrating partition organization,
 

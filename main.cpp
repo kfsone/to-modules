@@ -1,6 +1,5 @@
-import database;
-import logging;
-import user;
+import components;
+// import components:database;  // <- partitions not visible outside module.
 
 int main()
 {

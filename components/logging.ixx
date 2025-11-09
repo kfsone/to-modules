@@ -1,11 +1,8 @@
-export module logging;
+export module components:logging;
 
 // import <overkill.h>;     // uncomment to see effect
 import <iostream>;
 import <string>;
-// If our users will always want to access std::string, we could
-// in theory export it so they don't have to.
-// export import <string>;
 
 export constexpr const char* LOG_INFO = "info";
 

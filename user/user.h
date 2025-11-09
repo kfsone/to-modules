@@ -4,6 +4,7 @@
 
 #include <database/database.h>
 
+// FIXME (stage05)
 #include <string>
 
 struct User

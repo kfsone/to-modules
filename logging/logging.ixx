@@ -1,12 +1,10 @@
-// export module I.Logz.ForU;  // NOTE: controls the name
 export module logging;
 
-#include <iostream>  // vs: produces warning, may fail on others
-#include <string>    // vs: produces warning, may fail on others
+// FIXME (Stage 5)
+#include <iostream>
+#include <string>
 
-// FIXME
-#define LOG_INFO "info"
-// export constexpr const char* LOG_INFO = "info";
+export constexpr const char* LOG_INFO = "info";
 
 export struct Logger
 {

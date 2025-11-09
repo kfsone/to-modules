@@ -1,5 +1,13 @@
-cmake_minimum_required (VERSION 3.17)
+cmake_minimum_required (VERSION 3.21)  # Works best with 4.0+
+
+
+# Toolchain factors
+set (CMAKE_CXX_STANDARD          20)
+set (CMAKE_CXX_STANDARD_REQUIRED ON)
+set (CMAKE_CXX_EXTENSIONS        OFF)  # consistency
+
+
 project (ToModules LANGUAGES CXX)
 
-message (FATAL_ERROR "Please proceed to Stage 1 (e.g: git switch Stage1)")
 
+add_executable (main main.cpp)

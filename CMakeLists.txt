@@ -9,5 +9,12 @@ set (CMAKE_CXX_EXTENSIONS        OFF)  # consistency
 
 project (ToModules LANGUAGES CXX)
 
+include_directories (${CMAKE_CURRENT_LIST_DIR})  # so #include <x/x.h> works
+
+add_subdirectory (database)
+add_subdirectory (logging)
+add_subdirectory (user)
+
 
 add_executable (main main.cpp)
+target_link_libraries (main PUBLIC database logging user)

@@ -1,0 +1,15 @@
+{
+    "name": "C++ Modules Dev Container",
+	"image": "docker.io/kfsone/to-modules",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cmake-tools",
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-extension-pack"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}

@@ -1,13 +1,13 @@
-#pragma once
-#ifndef INCLUDED_LOGGING_H
-#define INCLUDED_LOGGING_H
+module;
 
 #include <iostream>
 #include <string>
 
+export module logging;
+
 #define LOG_INFO "info"
 
-struct Logger
+export struct Logger
 {
     std::string name;
     void operator() (const char* level, std::string msg)
@@ -17,11 +17,7 @@ struct Logger
 };
 
 
-// In order to avoid collisions between includes, must be static.
-static inline Logger NewLogger(std::string name)
+export inline Logger NewLogger(std::string name)
 {
 	return Logger{ .name = name };
 }
-
-
-#endif  // INCLUDED_LOGGING_H

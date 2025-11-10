@@ -2,9 +2,9 @@
 #ifndef INCLUDED_USER_H
 #define INCLUDED_USER_H
 
-#include "database.h"
-
 #include <string>
+
+#include "database.h"
 
 struct User
 {

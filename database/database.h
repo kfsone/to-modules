@@ -2,6 +2,8 @@
 #ifndef INCLUDED_DATABASE_H
 #define INCLUDED_DATABASE_H
 
+#include <string>
+
 import logging;
 
 struct DB

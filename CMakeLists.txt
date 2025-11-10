@@ -9,5 +9,10 @@ set (CMAKE_CXX_EXTENSIONS        OFF)  # consistency
 
 project (ToModules LANGUAGES CXX)
 
+add_subdirectory (database)
+add_subdirectory (logging)
+add_subdirectory (user)
+
 
 add_executable (main main.cpp)
+target_link_libraries (main database logging user)

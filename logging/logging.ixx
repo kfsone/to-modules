@@ -5,7 +5,10 @@ module;
 
 export module logging;
 
-#define LOG_INFO "info"
+export constexpr const char* LOG_INFO = "info";
+// A better alternative would be to use std::string_view:
+// using namespace std::string_view_literals;
+// export constexpr std::string_view kLOG_INFO = "info"sv;
 
 export struct Logger
 {

@@ -1,6 +1,7 @@
 #include "database.h"
-#include "logging.h"
 #include "user.h"
+
+import logging;
 
 
 int main()

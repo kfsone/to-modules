@@ -2,7 +2,7 @@
 #ifndef INCLUDED_DATABASE_H
 #define INCLUDED_DATABASE_H
 
-#include "logging.h"
+import logging;
 
 struct DB
 {

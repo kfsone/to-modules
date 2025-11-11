@@ -3,6 +3,7 @@ module;
 
 module user;
 import database;
+import logging;
 
 
 User NewUser(DB& db, std::string name)

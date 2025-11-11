@@ -1,9 +1,8 @@
 #include <string>
 
-#include "database.h"
-#include "user.h"
-
+import database;
 import logging;
+import user;
 
 
 int main()

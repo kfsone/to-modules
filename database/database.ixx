@@ -1,16 +1,12 @@
-#pragma once
-#ifndef INCLUDED_DATABASE_H
-#define INCLUDED_DATABASE_H
+export module database;
 
 #include <string>
 
 import logging;
 
-struct DB
+export struct DB
 {
 	Logger log;
 };
 
-extern DB NewDatabase();
-
-#endif  // INCLUDED_DATABASE_H
+export extern DB NewDatabase();

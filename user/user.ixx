@@ -1,16 +1,12 @@
-#pragma once
-#ifndef INCLUDED_USER_H
-#define INCLUDED_USER_H
+export module user;
 
 #include <string>
 
-#include "database.h"
+import database;
 
-struct User
+export struct User
 {
 	std::string name;
 };
 
-extern User NewUser(DB& db, std::string name);
-
-#endif  // INCLUDED_USER_H
+export extern User NewUser(DB& db, std::string name);

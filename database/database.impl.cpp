@@ -1,4 +1,4 @@
-#include "database.h"
+module database;
 
 DB NewDatabase()
 {

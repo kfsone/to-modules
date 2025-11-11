@@ -1,4 +1,4 @@
-#include "user.h"
+module user;
 
 User NewUser(DB& db, std::string name)
 {

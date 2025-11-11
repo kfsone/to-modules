@@ -1,8 +1,6 @@
 #include <string>
 
-import database;
-import logging;
-import user;
+import components;
 
 
 int main()

@@ -1,6 +1,7 @@
-export module user;
-
+module;
 #include <string>
+
+export module user;
 
 import database;
 

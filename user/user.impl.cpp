@@ -1,4 +1,9 @@
+module;
+#include <string>
+
 module user;
+import database;
+
 
 User NewUser(DB& db, std::string name)
 {

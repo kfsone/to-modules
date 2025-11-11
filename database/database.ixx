@@ -1,6 +1,7 @@
-export module database;
-
+module;
 #include <string>
+
+export module database;
 
 import logging;
 

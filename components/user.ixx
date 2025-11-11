@@ -2,6 +2,7 @@ module;
 #include <string>
 
 export module components:user;
+import :database;
 
 
 export struct User

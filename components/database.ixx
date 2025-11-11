@@ -1,9 +1,8 @@
 module;
 #include <string>
 
-export module database;
+export module components:database;
 
-import logging;
 
 export struct DB
 {

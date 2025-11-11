@@ -1,9 +1,8 @@
 module;
 #include <string>
 
-export module user;
+export module components:user;
 
-import database;
 
 export struct User
 {

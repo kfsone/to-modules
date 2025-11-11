@@ -1,9 +1,7 @@
 module;
 #include <string>
 
-module user;
-import database;
-import logging;
+module components;
 
 
 User NewUser(DB& db, std::string name)

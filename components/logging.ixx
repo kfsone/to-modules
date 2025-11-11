@@ -3,7 +3,7 @@ module;
 #include <iostream>
 #include <string>
 
-export module logging;
+export module components:logging;
 
 export constexpr const char* LOG_INFO = "info";
 // A better alternative would be to use std::string_view:
